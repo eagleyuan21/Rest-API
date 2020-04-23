@@ -22,7 +22,7 @@ $ python3 manage.py runserver
 ```
 
 The application should now be available at http://127.0.0.1:8000/api/objects.
-
+```
 POST to api/objects : Input any number of arbitrary fields in JSON format, and the response is the JSON object with all the inputted fields with a unique identifier field for the posted object.
 
 PUT to api/objects/<uid> : Input any number of arbitrary fields in JSON format, and the response is the JSON object with all the inputted fields with the unique identifier field as the uid in the url.

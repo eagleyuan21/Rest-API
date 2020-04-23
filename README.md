@@ -11,14 +11,19 @@ If running locally, make sure python3 is downloaded. Then download django and dj
 
 ```bash 
 $ pip install django
+#
 $ pip install djangorestframework 
+#
 ```
 Download the restapi project folder here and then using terminal move into the folder. Run these commands now in local directory.
 
 ```bash 
 $ python3 manage.py makemigrations
+#
 $ python3 manage.py migrate
+#
 $ python3 manage.py runserver
+#
 ```
 
 The application should now be available at http://127.0.0.1:8000/api/objects.

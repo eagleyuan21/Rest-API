@@ -32,10 +32,10 @@ POST to api/objects : Input any number of arbitrary fields in JSON format, and t
 
 PUT to api/objects/&lt;uid> : Input any number of arbitrary fields in JSON format, and the response is the JSON object with all the inputted fields with the unique identifier field as the uid in the url.
   
-GET to api/objects/<uid> : Response of the JSON object with the uid specified with all its fields.
+GET to api/objects/&lt;uid> : Response of the JSON object with the uid specified with all its fields.
   
 GET to api/objects : Response of all the urls of the JSON objects in JSON format.
 
-DELETE to api/objects/<uid> : No response, and deletes the JSON object with the uid unique identifier.
+DELETE to api/objects/&lt;uid> : No response, and deletes the JSON object with the uid unique identifier.
   
 Errors : There are scenarios where errors are returned as response. Some errors include posting or putting something not in JSON format or getting, putting, or deleting a nonexistant JSON object.

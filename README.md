@@ -30,7 +30,7 @@ The application should now be available at http://127.0.0.1:8000/api/objects.
 
 POST to api/objects : Input any number of arbitrary fields in JSON format, and the response is the JSON object with all the inputted fields with a unique identifier field for the posted object.
 
-PUT to api/objects/&lt;derp<uid> : Input any number of arbitrary fields in JSON format, and the response is the JSON object with all the inputted fields with the unique identifier field as the uid in the url.
+PUT to api/objects/&lt;uid> : Input any number of arbitrary fields in JSON format, and the response is the JSON object with all the inputted fields with the unique identifier field as the uid in the url.
   
 GET to api/objects/<uid> : Response of the JSON object with the uid specified with all its fields.
   

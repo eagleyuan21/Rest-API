@@ -3,7 +3,7 @@ Django Rest API Application
 
 This is a rest api application I made using the django framework. This application supports POST, PUT, GET, and DELETE commands on any arbitrary JSON object. This means that all the JSON objects can have any number of fields and different fields. Also, each JSON object is assigned a unique identifier.
 
-This application is uploaded to Heroku and can be accessed at this link: https://eaglerestapi.herokuapp.com/api/objects
+This application is uploaded to Heroku and can be accessed at this link: https://eaglerestapi.herokuapp.com/api/objects.
 
 Note that when making commands, there may be some lag time, so keep refreshing if you don't see any updates or it returns an error that shouldn't be thrown after doing a command. 
 
